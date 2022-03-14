@@ -1,0 +1,25 @@
+.slider {
+    padding-bottom: 10px;
+}
+.slider #carouselExampleControlsNoTouching {
+    height: 100%;
+}
+.slider #carouselExampleControlsNoTouching .carousel-inner {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.slider #carouselExampleControlsNoTouching .carousel-inner .carousel-item {
+    height: 100%;
+}
+.slider #carouselExampleControlsNoTouching .carousel-inner .carousel-item img {
+    height: 100%;
+}
+.slider #carouselExampleControlsNoTouching .carousel-control-prev, .slider #carouselExampleControlsNoTouching .carousel-control-next {
+    width: 5%;
+}
+.slider #carouselExampleControlsNoTouching .carousel-control-prev span, .slider #carouselExampleControlsNoTouching .carousel-control-next span {
+    padding: 10px;
+    width: 30px;
+    height: 100px;
+}

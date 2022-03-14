@@ -1,0 +1,31 @@
+.wrraperabout{
+    display: flex;
+}
+
+.mainabout {
+    
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 500px 500px 100px;
+    grid-template-rows: 250px 100px 100px;
+
+    
+}
+
+.headabout {
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    ;
+}
+
+.contentabout {
+    padding-left: 75px;
+    margin: 30px;
+    font-size: 20px;
+}   
+h1 {
+    text-align: center;
+}

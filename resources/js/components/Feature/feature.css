@@ -1,0 +1,7 @@
+.products-list {
+  width: 90%;
+  margin: auto;
+}
+.products-list .row .product-list-item {
+  margin-top: 10px;
+}

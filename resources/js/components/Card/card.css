@@ -1,0 +1,62 @@
+.card.bwm-card {
+    coloR: black;
+    text-decoration: none;
+    margin-top: 10px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.card.bwm-card .wrapper-img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+}
+.card.bwm-card .wrapper-img img {
+    transition: all 0.5s ease;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.card.bwm-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card.bwm-card .card-body .card-body-head .card-title {
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3.2rem;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+.card.bwm-card .card-body .card-body-head .card-text {
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    max-height: 6.2rem;
+}
+.card.bwm-card .card-body .card-body-foot .price {
+    border-top: 1px solid #aaa;
+    text-align: center;
+}
+.card.bwm-card .card-body .card-body-foot .price .current {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.card.bwm-card .card-body .card-body-foot .price .discount {
+    font-size: 1.5rem;
+}
+.card.bwm-card .card-body .card-body-foot .button-group .detail {
+    border: none;
+}
